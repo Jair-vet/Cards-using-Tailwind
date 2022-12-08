@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Simple Card</title>
+</head>
+<body>
+    <!-- Title -->
+    <div class="bg-sky-800 relative text-center">
+        <h1 class="text-3xl text-white font-bold text-center">Simple Cards</h1>
+    </div>
+    <!-- Background Container -->
+    <div class="flex flex-col items-center justify-center h-screen bg-sky-800 md:flex-row md:gap-none gap-2">
+       
+        <!-- Card 1 -->
+        <div class="snap-y bg-zing-900 mx-6 rounded-2xl shadow-2xl relative">
+            <!-- Image -->
+            <img src="beach.jpeg" 
+                alt="card-image"
+                class="object-cover rounded-xl w-72 h-80 md:h-96
+                        transform hover:scale-105 hover:rounded-xl duration-200" 
+            >
+            <!-- Title -->
+            <h2 class="absolute left-6 bottom-6 text-lg md:text-3xl font-bold md:text-blue-700 text-white">The Beach</h2>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="snap-y bg-zing-900 mx-6 rounded-2xl shadow-2xl relative">
+            <!-- Image -->
+            <img src="beach-2.jpeg" 
+                alt="card-image"
+                class="object-cover rounded-xl w-72 h-80 md:h-96
+                        transform hover:scale-105 hover:rounded-xl duration-200" 
+            >
+            <!-- Title -->
+            <h2 class="absolute left-6 bottom-6 text-lg md:text-3xl font-bold md:text-blue-700 text-white">The Beach</h2>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="snap-y bg-zing-900 mx-6 rounded-2xl shadow-2xl relative">
+            <!-- Image -->
+            <img src="beach-3.jpeg" 
+                alt="card-image"
+                class="object-cover rounded-xl w-72 h-80 md:h-96
+                        transform hover:scale-105 hover:rounded-xl duration-200" 
+            >
+            <!-- Title -->
+            <h2 class="absolute left-6 bottom-6 text-lg md:text-3xl font-bold md:text-blue-700 text-white">The Beach</h2>
+        </div>
+    </div>
+    
+</body>
+</html>
